@@ -11,8 +11,7 @@ headers = {
 def clear():
     os.system("cls")
     print(f'\n\t\t\t\t\u001b[38;5;127m╔═╗┬ ┬┬┬┌┐┌┬┌─┬┌┐ ┌─┐┬\n\t\t\t\t\u001b[38;5;128m║  ├─┤│││││├┴┐│├┴┐│ ││\n\t\t\t\t\u001b[38;5;129m╚═╝┴ ┴┴┴┘└┘┴ ┴┴└─┘└─┘┴{Fore.RESET}\n\n\n')
-    print(f"{Fore.RED}The Gay {Fore.YELLOW}Test")
-    print(f"{Fore.YELLOW}Let {Fore.GREEN}your computer {Fore.CYAN}history {Fore.BLUE}talk for{Fore.MAGENTA} you!:{Fore.RESET}")
+    print(f"{Fore.MAGENTA}The Gay Test"{Fore.RESET})
 clear()
 
 def randomproxy():

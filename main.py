@@ -11,7 +11,7 @@ headers = {
 def clear():
     os.system("cls")
     print(f'\n\t\t\t\t\u001b[38;5;127m╔═╗┬ ┬┬┬┌┐┌┬┌─┬┌┐ ┌─┐┬\n\t\t\t\t\u001b[38;5;128m║  ├─┤│││││├┴┐│├┴┐│ ││\n\t\t\t\t\u001b[38;5;129m╚═╝┴ ┴┴┴┘└┘┴ ┴┴└─┘└─┘┴{Fore.RESET}\n\n\n')
-    print(f"{Style.BRIGHT}{Fore.MAGENTA}Github Profile Booster{Fore.RESET}\n")
+    print(f"{Style.BRIGHT}{Fore.MAGENTA}Github Profile Booster by BRYoN aka Chiinkiboi{Fore.RESET}\n")
 clear()
 
 def randomproxy():

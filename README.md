@@ -7,3 +7,4 @@ Proxy format: IP:PORT or user:password@proxyip:port
 dont skid batty boy
 
 CREATED BY BRYoN aka. Chiinkiboi
+inspired by https://github.com/dreamywashere/

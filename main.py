@@ -1,6 +1,6 @@
 import requests, threading, os, random
 from fake_useragent import UserAgent
-from colorama import Fore
+from colorama import Fore, Style
 
 ua = UserAgent()
 count = 0
@@ -11,7 +11,7 @@ headers = {
 def clear():
     os.system("cls")
     print(f'\n\t\t\t\t\u001b[38;5;127m╔═╗┬ ┬┬┬┌┐┌┬┌─┬┌┐ ┌─┐┬\n\t\t\t\t\u001b[38;5;128m║  ├─┤│││││├┴┐│├┴┐│ ││\n\t\t\t\t\u001b[38;5;129m╚═╝┴ ┴┴┴┘└┘┴ ┴┴└─┘└─┘┴{Fore.RESET}\n\n\n')
-    print(f"{Fore.MAGENTA}Github Profile Booster{Fore.RESET}\n")
+    print(f"{Style.BRIGHT}{Fore.MAGENTA}Github Profile Booster{Fore.RESET}\n")
 clear()
 
 def randomproxy():

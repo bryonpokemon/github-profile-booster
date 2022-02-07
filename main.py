@@ -1,5 +1,6 @@
 import requests, threading, os, random
 from fake_useragent import UserAgent
+from colorama import Fore
 
 ua = UserAgent()
 count = 0
@@ -7,10 +8,17 @@ proxy = open("proxies.txt").read().splitlines()
 headers = {
 	"User-Agent": ua.random
 }
-acc = input("https://camo.githubusercontent.com/")
+def clear():
+    os.system("cls")
+    print(f'\n\t\t\t\t\u001b[38;5;127m╔═╗┬ ┬┬┬┌┐┌┬┌─┬┌┐ ┌─┐┬\n\t\t\t\t\u001b[38;5;128m║  ├─┤│││││├┴┐│├┴┐│ ││\n\t\t\t\t\u001b[38;5;129m╚═╝┴ ┴┴┴┘└┘┴ ┴┴└─┘└─┘┴{Fore.RESET}\n\n\n')
+    print(f"{Fore.RED}The Gay {Fore.YELLOW}Test")
+    print(f"{Fore.YELLOW}Let {Fore.GREEN}your computer {Fore.CYAN}history {Fore.BLUE}talk for{Fore.MAGENTA} you!:{Fore.RESET}")
+clear()
 
 def randomproxy():
     return random.choice(proxy)
+
+acc = input("https://camo.githubusercontent.com/")
 
 def main():
 	try:

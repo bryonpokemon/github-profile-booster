@@ -6,5 +6,5 @@ Proxy format: IP:PORT or user:password@proxyip:port
 
 dont skid batty boy
 
-CREATED BY BRYoN aka. Chiinkiboi
+CREATED BY BRYoN
 inspired by https://github.com/dreamywashere/
